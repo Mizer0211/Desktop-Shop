@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+
+*{
+    font-family: ABeeZee;
+    font-weight: normal;
+}
+
+body {
+    background: #ffa723fa;
+    /**background-image: url("foto/Background/test\ bg.jpg"); OR color #ff9900 **/
+    background-position: center;
+    background-size: auto;
+    margin: 0;
+}
