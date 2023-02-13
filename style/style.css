@@ -64,9 +64,11 @@ body {
     margin-left: 40px;
     width: 300px;
     height: 30px;
-    border: 0px solid;
+    border: 1px solid #0f1c3b;
     outline: none;
     padding-left: 10px;
+    background-color: #fdd08b;
+    border-radius: 8px;
 }
 
 
