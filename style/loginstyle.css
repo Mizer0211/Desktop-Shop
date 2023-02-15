@@ -64,7 +64,7 @@ body {
     background-color: #0f1c3b;
     border: 1px solid;
     border-radius: 15px;
-    box-shadow: 0 2px 4px #000000bb;
+    box-shadow: 2px 2px 15px #000000bb;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -87,33 +87,77 @@ body {
     padding-left: 7px;
     background-color: #fdd08b;
     border-radius: 12px;
+    filter: drop-shadow(0px 2px 4px #00133f);
     position: relative;
 }
 
 .login-text {
-    position: relative;
     color: #ffb649;
     transition: 0.3s;
+    margin-bottom: 30px;
 }
 
 .login-label {
+    margin-top: 7px;
+    margin-left: 12px;
+    position: absolute;
     top: 0;
     left: 0;
-    color: #ffb649;
+    color: #0f1c3b;
     pointer-events: none;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
-.login-input:focus ~ .login-label,
-.login-input ~ .login-label {
-    top: -18px;
-    font-size: 20px;
-    color: #fac473;
-}
 
 .login-input:focus ~ .login-label,
 .login-input:not(:placeholder-shown) ~ .login-label {
-    top: 0;
-    font-size: 18px;
-    color: #fac473;
+    top: -27px;
+    font-size: 15px;
+    color: #ffa723fa;
+}
+
+
+.loginbtn {
+    width: 90px;
+    height: 40px;
+    border: 1px solid ;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #fdd08b;
+    color: #0f1c3b;
+    cursor: pointer;
+}
+
+.loginbtn:hover {
+    background-color: #fac473;
+    border: 2px solid #527fe9;
+    filter: drop-shadow(0px 4px 4px #00123d);
+    transition: 20ms;
+}
+
+.forgot {
+    margin-top: 20px;
+    color: #ffb649;
+}
+
+.forgot:hover {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.password {
+    margin-top: 20px;
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 0px;
+	right: 4px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
 }
