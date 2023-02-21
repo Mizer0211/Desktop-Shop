@@ -13,6 +13,7 @@ body {
     margin: 0;
 }
 
+
 .navmenu {
     margin-top: 0;
     background-color: #0f1c3b;
@@ -42,26 +43,27 @@ body {
 
 .logo {
     display: flex;
-    height: 80px;
-    width: 80px;
+    height: 65px;
+    width: 65px;
 }
 
 .lgse {
-    margin: 20px 0 0 20px;
-    display: inline-flex;
+    padding: 10px 0 20px 20px;
+    display: flex;
+    background-color: #3F3D56;
+    height: 50px;
 }
 
 .logobutton {
-    align-items: center;
     justify-content: center;
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 65px;
+    height: 65px;
 }
 
 .search-input {
-    margin-top: 25px;
-    margin-left: 40px;
+    margin-top: 17px;
+    margin-left: 50px;
     width: 300px;
     height: 30px;
     border: 1px solid #0f1c3b;
@@ -86,3 +88,25 @@ body {
     transition: 0.3s;
     color: #ffa723fa;
 }
+
+.productgroup {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.dproduct {
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: #fdd08b;
+    border-radius: 15px;
+}
+
+
+.dproduct:hover {
+    transition: 0.2s;
+    filter: drop-shadow(0px 0px 5px #3F3D56);
+}
+
