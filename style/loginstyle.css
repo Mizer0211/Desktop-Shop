@@ -166,10 +166,11 @@ body {
 .forgot {
     margin-top: 20px;
     color: #ffb649;
+    text-decoration: none;
 }
 
 .forgot:hover {
-    text-decoration: none;
+    text-decoration: underline;
     transition: 0.3s;
 }
 

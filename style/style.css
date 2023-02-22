@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #ffa723fa;
+    background: #fdd08b; /*#ffa723fa*/
     /**background-image: url("foto/Background/test\ bg.jpg"); OR color #ff9900 **/
     background-position: center;
     background-size: auto;
@@ -16,7 +16,7 @@ body {
 
 .navmenu {
     margin-top: 0;
-    background-color: #0f1c3b;
+    background-color: #0f1c3b; /*#0f1c3b.#3F3D56*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,29 +42,32 @@ body {
 }
 
 .logo {
+    margin-top: 2px;
     display: flex;
-    height: 65px;
-    width: 65px;
+    height: 45px;
+    width: 45px;
 }
 
 .lgse {
-    padding: 10px 0 20px 20px;
     display: flex;
-    background-color: #3F3D56;
-    height: 50px;
+    background-color: #ffa723fa; /*#3F3D56*/
+    height: 60px;
 }
 
 .logobutton {
-    justify-content: center;
+    margin-top: 5px;
+    margin-left: 20px;
     display: block;
-    width: 65px;
-    height: 65px;
+    width: 45px;
+    height: 45px;
 }
 
+
+
 .search-input {
-    margin-top: 17px;
-    margin-left: 50px;
-    width: 300px;
+    margin-top: 13px;
+    margin-left: 700px;
+    width: 350px;
     height: 30px;
     border: 1px solid #0f1c3b;
     outline: none;
@@ -74,9 +77,8 @@ body {
     font-size: 15px;
 }
 
-
 .login {
-    padding-left: 550px;
+    padding-left: 630px;
     margin-right: 1px;
     text-decoration: none;
     color: white;
@@ -93,20 +95,81 @@ body {
     flex-direction: row;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 70px;
 }
 
 .dproduct {
-    margin-top: 50px;
+    margin-top: 200px;
     width: 300px;
     height: 400px;
-    background-color: #fdd08b;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffa723fa; /*#fdd08b*/
     border-radius: 15px;
+    filter: drop-shadow(0px 0px 2px #3F3D56);
 }
 
 
 .dproduct:hover {
     transition: 0.2s;
-    filter: drop-shadow(0px 0px 5px #3F3D56);
+    filter: drop-shadow(0px 0px 8px #3F3D56);
 }
 
+.components {
+    margin-top: 10px;
+    width: 90%;
+    height: 50%;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+.monitor {
+    margin-top: 10px;
+    width: 70%;
+    height: 50%;
+    filter: drop-shadow(0px 0px 3px black);
+}
+
+.mouse {
+    margin-top: 15px;
+    width: 45%;
+    height: 45%;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+.keyboard {
+    margin-top: 15px;
+    width: 70%;
+    height: 40%;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+.headphones {
+    margin-top: 15px;
+    width: 50%;
+    height: 42%;
+    filter: drop-shadow(0px 0px 3px black);
+}
+
+.attxt {
+    text-decoration: none;
+    color: #0f1c3b;
+    cursor: pointer;
+}
+
+.ptxt {
+    margin-top: 30px;
+}
+
+.ktxt {
+    margin-top: 50px;
+}
+
+.atxt {
+    margin-top: 40px;
+}
+
+.attxt:hover {
+    text-decoration: underline;
+    color: #3F3D56;
+    transition: 0.2s;
+}
