@@ -42,7 +42,6 @@ body {
 }
 
 .logo {
-    margin-top: 2px;
     display: flex;
     height: 45px;
     width: 45px;
@@ -50,37 +49,47 @@ body {
 
 .lgse {
     display: flex;
+    align-items: center;
     background-color: #ffa723fa; /*#3F3D56*/
     height: 60px;
 }
 
 .logobutton {
-    margin-top: 5px;
     margin-left: 20px;
     display: block;
     width: 45px;
     height: 45px;
 }
 
-
-.search-input {
-    margin-top: 13px;
-    margin-left: 700px;
+.searchdiv {
+    position: relative;
+    margin-left: 590px;
+    padding-left: 5px;
     width: 350px;
     height: 30px;
-    border: 1px solid #0f1c3b;
-    outline: none;
-    padding-left: 10px;
-    background-color: #fdd08b;
     border-radius: 8px;
+    border: 1px solid #0f1c3b;
+    background-color: #fdd08b;
+}
+
+.search-input {
+    width: 310px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
     font-size: 15px;
 }
 
 .submitbtn {
+    position: relative;
     width: 25px;
     height: 25px;
+    background-color: #ffa723fa;
     border: 1px solid #0f1c3b;
     border-radius: 5px;
+    outline: none;
+    cursor: pointer;
 }
 
 .login {
@@ -97,85 +106,20 @@ body {
     color: #ffa723fa;
 }
 
-.productgroup {
-    flex-direction: row;
+.location {
     display: flex;
-    justify-content: center;
-    gap: 70px;
+    margin-left: 15px;
+    align-items: center;
+    gap: 5px;
 }
 
-.dproduct {
-    margin-top: 200px;
-    width: 300px;
-    height: 400px;
-    justify-content: center;
-    text-align: center;
-    background-color: #ffa723fa; /*#fdd08b*/
-    border-radius: 15px;
-    filter: drop-shadow(0px 0px 2px #3F3D56);
-}
-
-
-.dproduct:hover {
-    transition: 0.2s;
-    filter: drop-shadow(0px 0px 8px #3F3D56);
-}
-
-.components {
-    margin-top: 10px;
-    width: 90%;
-    height: 45%;
-    filter: drop-shadow(0px 0px 4px black);
-}
-
-.monitor {
-    margin-top: 10px;
-    width: 70%;
-    height: 50%;
-    filter: drop-shadow(0px 0px 3px black);
-}
-
-.mouse {
-    margin-top: 15px;
-    width: 45%;
-    height: 45%;
-    filter: drop-shadow(0px 0px 4px black);
-}
-
-.keyboard {
-    margin-top: 15px;
-    width: 70%;
-    height: 40%;
-    filter: drop-shadow(0px 0px 4px black);
-}
-
-.headphones {
-    margin-top: 15px;
-    width: 50%;
-    height: 42%;
-    filter: drop-shadow(0px 0px 3px black);
-}
-
-.attxt {
-    text-decoration: none;
-    color: #0f1c3b;
-    cursor: pointer;
-}
-
-.ptxt {
-    margin-top: 30px;
-}
-
-.ktxt {
-    margin-top: 50px;
-}
-
-.atxt {
-    margin-top: 40px;
-}
-
-.attxt:hover {
+.locate {
     text-decoration: underline;
-    color: #3F3D56;
-    transition: 0.2s;
+    color: black;
+}
+
+.locate:hover {    
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
