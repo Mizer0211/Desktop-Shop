@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+
+*{
+    font-family: ABeeZee;
+    font-weight: normal;
+}
+
+body {
+    background: #fdd08b; /*#ffa723fa*/
+    /**background-image: url("foto/Background/test\ bg.jpg"); OR color #ff9900 **/
+    background-position: center;
+    background-size: auto;
+    margin: 0;
+}
+
+
+/* HEADER STYLE START */
+.navmenu {
+    margin-top: 0;
+    background-color: #0f1c3b; /*#0f1c3b.#3F3D56*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navigation {
+    position: static;
+    text-decoration: none;
+    color : #ffffff; /*#2e2a26*/
+    cursor: pointer;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.navigation:hover {
+    transition: 0.3s;
+    color: #ffa723fa;
+}
+
+.login {
+    padding-left: 630px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+}
+
+.login:hover {
+    transition: 0.3s;
+    color: #ffa723fa;
+}
+/* HEADER STYLE END */
+
+.title {
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.contact {
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+}

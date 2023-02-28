@@ -13,7 +13,7 @@ body {
     margin: 0;
 }
 
-
+/* HEADER STYLE START */
 .navmenu {
     margin-top: 0;
     background-color: #0f1c3b; /*#0f1c3b.#3F3D56*/
@@ -40,6 +40,22 @@ body {
     transition: 0.3s;
     color: #ffa723fa;
 }
+
+.login {
+    padding-left: 630px;
+    margin-right: 1px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+}
+
+.login:hover {
+    transition: 0.3s;
+    color: #ffa723fa;
+}
+
+/* HEADER STYLE END */
 
 .logo {
     margin-top: 2px;
@@ -83,19 +99,6 @@ body {
     border-radius: 5px;
 }
 
-.login {
-    padding-left: 630px;
-    margin-right: 1px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    position: absolute;
-}
-
-.login:hover {
-    transition: 0.3s;
-    color: #ffa723fa;
-}
 
 .productgroup {
     flex-direction: row;
