@@ -63,9 +63,9 @@ body {
 
 .searchdiv {
     position: relative;
-    margin-left: 590px;
+    display: flex;
+    margin-left: 594px;
     padding-left: 5px;
-    width: 350px;
     height: 35px;
     border-radius: 8px;
     border: 1px solid #0f1c3b;
@@ -73,6 +73,7 @@ body {
 }
 
 .search-input {
+    margin-top: 2px;
     width: 300px;
     height: 30px;
     border: 0;
@@ -81,18 +82,19 @@ body {
     font-size: 17px;
 }
 
-.searcha {
-    margin-left: 6px;
+.sumbit_div {
+    margin: 3px 5px 0 10px;
+    text-align: center;
+    width: 27px;
+    height: 27px;
     background-color: #ffa723fa;
-    width: 30px;
-    height: 30px;
     border-radius: 5px;
     border: 1px solid #0f1c3b;
 }
 
 .searchph {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
 }
 
 .login {

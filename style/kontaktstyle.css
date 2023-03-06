@@ -67,5 +67,11 @@ body {
     margin-top: 60px;
     justify-content: center;
     display: flex;
-    gap: 150px;
+}
+
+.divcontact {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid black;
 }
