@@ -128,3 +128,23 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.mouse {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200px;
+    height: 350px;
+    background-color: #ffa723fa;
+    border: 2px solid #0f1c3b;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.mouse-header {
+    width: 200px;
+    height: 150px;
+    background-color: #fdd08b;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
