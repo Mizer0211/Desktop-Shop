@@ -12,7 +12,9 @@ body {
     margin: 0;
 }
 
-
+.container {
+    justify-content: center;
+}
 /* HEADER STYLE START */
 .navmenu {
     margin-top: 0;
@@ -42,7 +44,6 @@ body {
 }
 
 .login {
-    padding-left: 630px;
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -73,4 +74,16 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     border-left: 1px solid black;
+}
+
+.divcontact > .days {
+    text-align: start;
+}
+
+.divcontact > .rekvizit {
+    text-align: start;
+}
+
+.divcontact > .conect {
+    text-align: start;
 }
