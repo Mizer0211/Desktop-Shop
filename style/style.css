@@ -22,17 +22,12 @@ body {
     height: 60px;
 }
 
-.navbar {
-    display: flex;
-}
 
 .navigation {
-    position: static;
     text-decoration: none;
     color : #ffffff; /*#2e2a26*/
     cursor: pointer;
     margin-right: 50px;
-    justify-content: space-between;
 }
 
 .navigation:hover {
@@ -40,11 +35,16 @@ body {
     color: #ffa723fa;
 }
 
+.logind {
+    text-align: center;
+    align-items: flex-end;
+    word-wrap: unset;
+}
+
 .login {
     text-decoration: none;
     color: white;
     cursor: pointer;
-    position: absolute;
 }
 
 .login:hover {
@@ -52,14 +52,28 @@ body {
     color: #ffa723fa;
 }
 
-/* HEADER STYLE END */
 
-.logo {
-    margin-top: 2px;
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
-    height: 45px;
-    width: 45px;
 }
+
+.flex-container space-between {
+    justify-content: space-between;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* HEADER STYLE END */
 
 .lgse {
     display: flex;
