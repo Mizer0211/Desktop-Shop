@@ -7,27 +7,28 @@
 body {
     background: #fdd08b; /*#ffa723fa*/
     /**background-image: url("foto/Background/test\ bg.jpg"); OR color #ff9900 **/
-    background-position: center;
-    background-size: auto;
     margin: 0;
+}
+
+.content {
+    width: auto;
+    height: auto;
 }
 
 /* HEADER STYLE START */
 .navmenu {
-    margin-top: 0;
-    background-color: #0f1c3b; /*#0f1c3b.#3F3D56*/
+    height: 60px;
+    background-color: #0f1c3b;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
 }
 
 
 .navigation {
     text-decoration: none;
-    color : #ffffff; /*#2e2a26*/
+    color: #ffffff;
     cursor: pointer;
-    margin-right: 50px;
 }
 
 .navigation:hover {
