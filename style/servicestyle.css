@@ -65,6 +65,15 @@ body {
     background-color: white;
 }
 
+.person-data {
+    margin:20px;
+}
+
+.person {
+    display: block;
+    gap: 50px;
+}
+
 .drop-button {
     background-color: transparent;
     color: #0f1c3b;
