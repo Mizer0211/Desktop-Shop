@@ -65,7 +65,6 @@ body {
     display: flex;
     margin-left: 15px;
     align-items: center;
-    gap: 5px;
 }
 
 .locate {
