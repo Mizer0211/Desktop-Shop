@@ -80,6 +80,10 @@ body {
 
 }/*navigacijas style end*/
 
+.service-text {
+    color: #fdd08b;
+}
+
 .searchdiv {
     position: relative;
     display: flex;
