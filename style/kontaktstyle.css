@@ -57,14 +57,14 @@ body {
 /* HEADER STYLE END */
 
 .title {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 35px;
     text-align: center;
 
 }
 
 .contact {
-    margin-top: 60px;
+    margin-top: 30px;
     justify-content: center;
     display: flex;
 }
@@ -86,4 +86,16 @@ body {
 
 .divcontact > .conect {
     text-align: start;
+}
+
+.location {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    display: block;
+}
+
+iframe {
+    width:600px;
+    height:450px;
 }
