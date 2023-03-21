@@ -99,3 +99,27 @@ body {
     font-weight: 100;
 }
 /*Lokacijas style end*/
+
+.mouse-content {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    height: 600px;
+    border: 1px solid #0f1c3b;
+}
+
+.mouse-image {
+    padding: 10px;
+    width: min-content;
+    height: min-content;
+    border-radius: 10px;
+    border: 1px solid #0f1c3b;
+    background-color: #ffa723fa;
+}
+
+.mouse-content > .mouse-image > img {
+    width: 350px;
+    height: 350px;
+}
