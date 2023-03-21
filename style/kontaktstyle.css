@@ -98,4 +98,6 @@ body {
 iframe {
     width:600px;
     height:450px;
+    border: none;
+    border-radius: 15px;
 }
