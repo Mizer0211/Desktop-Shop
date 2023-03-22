@@ -59,26 +59,34 @@ body {
 
 /* HEADER STYLE END */
 
+.service-container {
+    display: flex;
+    justify-content: center;
+}
 
 .service {
-    position: absolute;
     margin-top: 50px;
-    top: 25%;
-    left: 25%;
-    padding-bottom: 1.5%;
     width: 1000px;
-    height: auto;
     height: auto;
     background-color: #0f1c3b;
     border-radius: 15px;
+    border: 1px solid #ffa723fa;
+    filter: drop-shadow(0px 2px 10px #ffa723fa);
+}
+
+.title {
+    margin : 40px;
+    text-align: center;
 }
 
 h1, h3 {
     color: #fdd08b;
 }
 
+
 .person-data {
     margin:20px;
+    text-align: center;
 }
 
 .person-email {
@@ -95,7 +103,7 @@ h1, h3 {
     border-radius: 10px;
     border: 1px solid #0f1c3b;
     background-color: #fdd08b;
-    filter: drop-shadow(0px 0px 1px #00133f);
+    filter: drop-shadow(0px 2px 1px black);
 }
 
 .person-data > .person-data-label {
@@ -114,27 +122,17 @@ h1, h3 {
     transition: 0.4s;
 }
 
-.about-problem {
-    width: 550px;
-    height: 150px;
-    resize: none;
-    outline: none;
-    border-radius: 10px;
-    background-color: #fdd08b;
-    border: 1px solid #ffa723fa;
-    filter: drop-shadow(0px 0px 1px #fdd08b);
-}
 
 .dropdown {
-    position: relative;
-    display: flex;
+    text-align: center;
+    margin: 40px;
+    justify-content: center;
 }
 
 .dropdown > p {
-    margin-left: 20px;
     color:#fdd08b;
+    font-size: 17px;
 }
-
 
 .choice-input {
     margin-left: 10px;
@@ -147,8 +145,61 @@ h1, h3 {
     border: 1px solid #ffa723fa;
     background-color: #fdd08b;
     text-align: center;
+    filter: drop-shadow(0px 2px 2px black);
 }
 
 .write-about {
     text-align: center;
+    margin: 30px;
+}
+
+.write-about-text {
+    font-weight: 1;
+}
+
+.about-problem {
+    width: 550px;
+    height: 150px;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fdd08b;
+    border: 2px solid #ffa723fa;
+    filter: drop-shadow(0px 2px 3px black);
+    font-size: 15px;
+}
+
+.sumbit-div-content {
+    display: flex;
+    justify-content: center;
+}
+
+.sumbit-div {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    width: 90px;
+    text-align: center;
+}
+
+.sumbit-button {
+    font-size: 20px;
+    width: 90px;
+    height: auto;
+    background-color: #fdd08b;
+    border: 2px solid #ffa723fa;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    filter: drop-shadow(0px 2px 1px black);
+}
+
+.sumbit-div:hover {
+    transform: scale(110%);
+    transition: 0.4s;
+}
+
+.sumbit-button:hover {
+    transition: 0.4s;
+    filter: drop-shadow(0px 2px 3px #fdd08b);
 }

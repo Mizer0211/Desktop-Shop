@@ -15,6 +15,7 @@ body {
 .container {
     justify-content: center;
 }
+
 /* HEADER STYLE START */
 .navmenu {
     margin-top: 0;
@@ -27,6 +28,7 @@ body {
 
 .navbar {
     display: flex;
+    justify-content: space-between;
 }
 
 .navigation {
@@ -34,8 +36,6 @@ body {
     text-decoration: none;
     color : #ffffff; /*#2e2a26*/
     cursor: pointer;
-    margin-right: 50px;
-    justify-content: space-between;
 }
 
 .navigation:hover {
@@ -43,21 +43,47 @@ body {
     color: #ffa723fa;
 }
 
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.flex-container space-between {
+    justify-content: space-between;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.logind {
+    text-align: center;
+    align-items: flex-end;
+    word-wrap: unset;
+}
+
 .login {
     text-decoration: none;
     color: white;
     cursor: pointer;
-    position: absolute;
 }
 
 .login:hover {
     transition: 0.3s;
     color: #ffa723fa;
 }
+
 /* HEADER STYLE END */
 
 .title {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 35px;
     text-align: center;
 
