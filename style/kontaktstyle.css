@@ -63,23 +63,6 @@ body {
     text-align: center;
 }
 
-.logind {
-    text-align: center;
-    align-items: flex-end;
-    word-wrap: unset;
-}
-
-.login {
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-
-.login:hover {
-    transition: 0.3s;
-    color: #ffa723fa;
-}
-
 /* HEADER STYLE END */
 
 .title {
