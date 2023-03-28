@@ -76,4 +76,116 @@ body {
     border: 1px solid transparent;
     border-radius: 5px;
     color: #ffb649;
+    box-shadow: 2px 2px 15px #000000bb;
+}
+
+.register-text {
+    color: #ffb649;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.register-div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-input {
+    height: 30px;
+    width: 280px;
+    border: 1px solid #0f1c3b;
+    outline: none;
+    padding-left: 7px;
+    background-color: #fdd08b;
+    border-radius: 12px;
+    font-size: 16px;
+    filter: drop-shadow(0px 2px 4px #00133f);
+    position: relative;
+}
+
+#register-password {
+    height: 30px;
+    width: 280px;
+    border: 1px solid #0f1c3b;
+    outline: none;
+    padding-left: 7px;
+    background-color: #fdd08b;
+    border-radius: 12px;
+    font-size: 16px;
+    filter: drop-shadow(0px 2px 4px #00133f);
+    position: relative;
+}
+
+.register-label {
+    margin-top: 7px;
+    margin-left: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #0f1c3b;
+    pointer-events: none;
+    transition: 0.4s;
+}
+
+#register-password:focus ~ .register-label,
+#register-password:not(:placeholder-shown) ~ .register-label {
+    top: -27px;
+    font-size: 15px;
+    color: #ffa723fa;
+}
+
+.register-input:focus ~ .register-label,
+.register-input:not(:placeholder-shown) ~ .register-label {
+    top: -27px;
+    font-size: 15px;
+    color: #ffa723fa;
+}
+
+/*paroles paslepšana un radišana poga style(start)*/
+.password {
+    margin-top: 20px;
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+/*paroles paslepšana un radišana poga style(end)*/
+
+.register-button-div {
+    margin-top: 20px;
+}
+
+.register-button {
+    padding: 5px;
+    border: 1px solid ;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #fdd08b;
+    color: #0f1c3b;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 140px;
+}
+
+.register-button > a {
+    text-decoration: none;
+    color: #0f1c3b;
+}
+
+.register-button:hover {
+    background-color: #fac473;
+    border: 1px solid #527fe9;
+    filter: drop-shadow(0px 4px 4px #00123d);
 }

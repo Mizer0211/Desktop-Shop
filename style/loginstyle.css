@@ -68,7 +68,7 @@ body {
     left: 50.1%;
     top: 46%;
     background-color: #0f1c3b;
-    border: 1px solid;
+    border: 1px solid transparent;
     border-radius: 5px;
     box-shadow: 2px 2px 15px #000000bb;
     flex-direction: column;
@@ -151,13 +151,13 @@ body {
     background-color: #fdd08b;
     color: #0f1c3b;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .loginbtn:hover {
     background-color: #fac473;
-    border: 2px solid #527fe9;
+    border: 1px solid #527fe9;
     filter: drop-shadow(0px 4px 4px #00123d);
-    transition: 20ms;
 }
 
 .password {
