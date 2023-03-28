@@ -82,12 +82,12 @@ body {
 .register-text {
     color: #ffb649;
     transition: 0.3s;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .register-div {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -188,4 +188,19 @@ body {
     background-color: #fac473;
     border: 1px solid #527fe9;
     filter: drop-shadow(0px 4px 4px #00123d);
+}
+
+.have-an-account {
+    margin-top: 15px;
+}
+
+.have-an-account > a {
+    text-decoration: none;
+    color: #ffa723fa;
+    transition: 0.3s;
+}
+
+.have-an-account > a:hover {
+    text-decoration: underline;
+    color: #fac473;
 }
