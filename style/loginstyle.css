@@ -5,9 +5,11 @@
 }
 body {
     background: #ffa723fa;
-    /**background-image: url("foto/Background/test\ bg.jpg"); OR color #ff9900 **/
-    background-position: center;
-    background-size: auto;
+    background-image: url(/foto/Background/Monitor_blue.svg);
+    background-repeat: no-repeat;
+    background-size: 62.5%;
+    background-position-x: 69.5%;
+    background-position-y: -11%;
     margin: 0;
 }
 
@@ -64,20 +66,6 @@ body {
     margin: 5px;
     line-height: 50px;
     text-align: center;
-}
-
-.login {
-    padding-left: 550px;
-    margin-right: 1px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    position: absolute;
-}
-
-.login:hover {
-    transition: 0.3s;
-    color: #ffa723fa;
 }
 
 .login-container {
