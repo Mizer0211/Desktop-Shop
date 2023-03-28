@@ -75,7 +75,7 @@ h2, h3, h5 {
 
 .delivery-content {
     background-color: #0f1c3b;
-    padding: 10px;
+    padding: 30px;
     width: max-content;
     height: auto;
     border: 1px solid #0f1c3b;
@@ -112,4 +112,5 @@ h2, h3, h5 {
 
 .table-column {
     padding: 10px;
+    border: 1px solid #ffa723fa;
 }
