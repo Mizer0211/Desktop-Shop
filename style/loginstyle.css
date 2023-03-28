@@ -203,6 +203,7 @@ body {
 .anychoice > ul > li > a {
     text-decoration: none;
     color: #ffb649;
+    transition: 0.3s;
 }
 
 .flex-item-any {
@@ -211,5 +212,10 @@ body {
     margin: 5px;
     line-height: 50px;
     text-align: center;
+}
+
+.flex-item-any > a:hover {
+    text-decoration: underline;
+    color: #fac473;
 }
 
