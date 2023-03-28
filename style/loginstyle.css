@@ -13,15 +13,6 @@ body {
     margin: 0;
 }
 
-.bgimage {
-    margin-top: 30px;
-    margin-left: 500px;
-    width: 1200px;
-    pointer-events: none;
-    user-select: none;
-    cursor: not-allowed;
-}
-
 .navmenu {
     margin-top: 0;
     background-color: #0f1c3b;
@@ -70,7 +61,7 @@ body {
 
 .login-container {
     margin: auto;
-    position: absolute;
+    position:fixed;
     transform: translate(-50%,-50%);
     width: 665px;
     height: 362px;
@@ -169,17 +160,6 @@ body {
     transition: 20ms;
 }
 
-.forgot {
-    margin-top: 20px;
-    color: #ffb649;
-    text-decoration: none;
-}
-
-.forgot:hover {
-    text-decoration: underline;
-    transition: 0.3s;
-}
-
 .password {
     margin-top: 20px;
 	position: relative;
@@ -196,3 +176,40 @@ body {
 .password-control.view {
     background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
 }
+
+.anychoice {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.anychoice > ul > li > a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.flex-container-any { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.flex-container-any space-between {
+    justify-content: space-between;
+}
+
+.anychoice > ul > li > a {
+    text-decoration: none;
+    color: #ffb649;
+}
+
+.flex-item-any {
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
