@@ -58,8 +58,8 @@ body {
 /*Lokacijas style start*/
 .logo {
     display: flex;
-    height: 45px;
-    width: 45px;
+    height: 70px;
+    width: 70px;
 }
 
 .lgse {
@@ -72,13 +72,12 @@ body {
 .logobutton {
     margin-left: 20px;
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 70px;
+    height: 70px;
 }
 
 .location {
     display: flex;
-    margin-left: 15px;
     align-items: center;
     gap: 5px;
 }
