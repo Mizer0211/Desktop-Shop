@@ -13,6 +13,7 @@ body {
     margin: 0;
 }
 
+
 .navmenu {
     margin-top: 0;
     background-color: #0f1c3b;
@@ -59,29 +60,13 @@ body {
     text-align: center;
 }
 
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.register-container{
     display: flex;
-}
-
-.flex-container space-between {
-    justify-content: space-between;
-}
-
-.flex-item {
-    padding: 5px;
-    width: 60px;
-    height: 50px;
-    margin: 5px;
-    line-height: 50px;
-    text-align: center;
-}
-
-.login-container {
     margin: auto;
-    position:fixed;
+    padding: 1rem;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
     transform: translate(-50%,-50%);
     width: 665px;
     height: 362px;
@@ -90,53 +75,51 @@ body {
     background-color: #0f1c3b;
     border: 1px solid transparent;
     border-radius: 5px;
+    color: #ffb649;
     box-shadow: 2px 2px 15px #000000bb;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
 }
 
-.login-div {
-    margin-bottom: 40px;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-input {
-    height: 30px;
-    width: 280px;
-    border: 1px solid #0f1c3b;
-    outline: none;
-    padding-left: 7px;
-    background-color: #fdd08b;
-    border-radius: 12px;
-    font-size: 16px;
-    filter: drop-shadow(0px 2px 4px #00133f);
-    position: relative;
-}
-
-#login-password {
-    height: 30px;
-    width: 280px;
-    border: 1px solid #0f1c3b;
-    outline: none;
-    padding-left: 7px;
-    background-color: #fdd08b;
-    border-radius: 12px;
-    font-size: 16px;
-    filter: drop-shadow(0px 2px 4px #00133f);
-    position: relative;
-}
-
-.login-text {
+.register-text {
     color: #ffb649;
     transition: 0.3s;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.login-label {
+.register-div {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-input {
+    height: 30px;
+    width: 280px;
+    border: 1px solid #0f1c3b;
+    outline: none;
+    padding-left: 7px;
+    background-color: #fdd08b;
+    border-radius: 12px;
+    font-size: 16px;
+    filter: drop-shadow(0px 2px 4px #00133f);
+    position: relative;
+}
+
+#register-password {
+    height: 30px;
+    width: 280px;
+    border: 1px solid #0f1c3b;
+    outline: none;
+    padding-left: 7px;
+    background-color: #fdd08b;
+    border-radius: 12px;
+    font-size: 16px;
+    filter: drop-shadow(0px 2px 4px #00133f);
+    position: relative;
+}
+
+.register-label {
     margin-top: 7px;
     margin-left: 12px;
     position: absolute;
@@ -147,39 +130,21 @@ body {
     transition: 0.4s;
 }
 
-
-#login-password:focus ~ .login-label,
-#login-password:not(:placeholder-shown) ~ .login-label {
+#register-password:focus ~ .register-label,
+#register-password:not(:placeholder-shown) ~ .register-label {
     top: -27px;
     font-size: 15px;
     color: #ffa723fa;
 }
 
-.login-input:focus ~ .login-label,
-.login-input:not(:placeholder-shown) ~ .login-label {
+.register-input:focus ~ .register-label,
+.register-input:not(:placeholder-shown) ~ .register-label {
     top: -27px;
     font-size: 15px;
     color: #ffa723fa;
 }
 
-.loginbtn {
-    width: 90px;
-    height: 40px;
-    border: 1px solid ;
-    border-radius: 15px;
-    font-size: 20px;
-    background-color: #fdd08b;
-    color: #0f1c3b;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.loginbtn:hover {
-    background-color: #fac473;
-    border: 1px solid #527fe9;
-    filter: drop-shadow(0px 4px 4px #00123d);
-}
-
+/*paroles paslepšana un radišana poga style(start)*/
 .password {
     margin-top: 20px;
 	position: relative;
@@ -196,46 +161,46 @@ body {
 .password-control.view {
     background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
 }
+/*paroles paslepšana un radišana poga style(end)*/
 
-.anychoice {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-top: 10px;
+.register-button-div {
+    margin-top: 20px;
 }
 
-.anychoice > ul > li > a:hover {
-    text-decoration: underline;
-    transition: 0.3s;
-}
-
-.flex-container-any { 
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-}
-
-.flex-container-any space-between {
-    justify-content: space-between;
-}
-
-.anychoice > ul > li > a {
-    text-decoration: none;
-    color: #ffb649;
-    transition: 0.3s;
-}
-
-.flex-item-any {
+.register-button {
     padding: 5px;
-    width: 200px;
-    margin: 5px;
-    line-height: 50px;
-    text-align: center;
+    border: 1px solid ;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #fdd08b;
+    color: #0f1c3b;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 140px;
 }
 
-.flex-item-any > a:hover {
+.register-button > a {
+    text-decoration: none;
+    color: #0f1c3b;
+}
+
+.register-button:hover {
+    background-color: #fac473;
+    border: 1px solid #527fe9;
+    filter: drop-shadow(0px 4px 4px #00123d);
+}
+
+.have-an-account {
+    margin-top: 15px;
+}
+
+.have-an-account > a {
+    text-decoration: none;
+    color: #ffa723fa;
+    transition: 0.3s;
+}
+
+.have-an-account > a:hover {
     text-decoration: underline;
     color: #fac473;
 }
-

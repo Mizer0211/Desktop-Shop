@@ -5,54 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style/loginstyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" type="image/x-icon" href="/foto/icon/Icon.ico">
     <title>Log In</title>
 
 </head>
 <body>
     <header>
-        <header>
-            <div class="navmenu">
-                <nav class="navbar">
-                    <ul class="flex-container space-between"> 
-                        <li class="flex-item"><a class="navigation" href="Desktop_Shop.html">Veikals</a></li>
-                        <li class="flex-item"><a class="navigation" href="Service.html">Service</a></li>
-                        <li class="flex-item"><a class="navigation" href="Delivery.html">Piegade</a></li>
-                        <li class="flex-item"><a class="navigation" href="Kontakti.html">Kontakti</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+        <div class="navmenu">
+            <nav class="navbar">
+                <ul>
+                    <a class="navigation" href="Desktop_Shop.html">Veikals</a>
+                    <a class="navigation" href="Service.html">Serviss</a>
+                    <a class="navigation" href="Delivery.html">Piegade</a>
+                    <a class="navigation" href="Kontakti.html">Kontakti</a>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="login-container">
+        <div class="login-container">
 
-        <h1 class="login-text">Log In</h1>
+            <h1 class="login-text">Log In</h1>
 
-        <div class="login-div">
-            <input class="login-input" type="text" placeholder=" ">
-            <label class="login-label">Your login :</label>
+            <div class="login-div">
+                <input class="login-input" type="text" placeholder=" ">
+                <label class="login-label">Your login :</label>
+            </div>
+
+            <div class="login-div">
+
+                <input type="password" id="login-password" placeholder=" " name="password">
+                <a href="#" class="password-control"></a>
+                <label class="login-label">Password :</label>
+
+            </div>
+            <div>
+                <button class="loginbtn">Log In</button>
+            </div>
+            <div class="anychoice">
+                <ul class="flex-container-any space-between">
+                    <li class="flex-item-any"><a href="Register.html">Reģistrēties</a></li>
+                    <li class="flex-item-any"><a class="forgot" href="" target="_blank">Forgot your password?</a></li>
+                </ul>
+            </div>
+
+
         </div>
-
-        <div class="login-div">
-
-            <input type="password" id="login-password" placeholder=" " name="password">
-            <a href="#" class="password-control"></a>
-            <label class="login-label">Password :</label>
-
-        </div>
-
-
-        <button class="loginbtn">Log In</button>
-        <a class="forgot" href="" target="_blank">Forgot your password?</a>
-
     </div>
 
-
-    <img class="bgimage" src="foto/Background/Monitor_blue.svg">
-
-
     <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-    <script src="script/script.js"></script>
+    <script src="script/login-script.js"></script>
+
 </body>
 
 </html>
