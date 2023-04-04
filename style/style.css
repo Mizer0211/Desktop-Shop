@@ -112,7 +112,7 @@ body {
     border-radius: 10px;
     border: 1px solid transparent;
     min-width: 160px;
-    box-shadow: 0px 5px 16px #ffa723fa;
+    box-shadow: 0px 3px 16px #ffa723fa;
     z-index: 1;
 }
 
