@@ -41,18 +41,27 @@ body {
     color: #ffa723fa;
 }
 
-.login {
-    padding-left: 630px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    position: absolute;
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
 }
 
-.login:hover {
-    transition: 0.3s;
-    color: #ffa723fa;
+
+.flex-container space-between {
+    justify-content: space-between;
 }
+
+.flex-item {
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+} 
 /* HEADER STYLE END */
 
 /*Lokacijas style start*/
