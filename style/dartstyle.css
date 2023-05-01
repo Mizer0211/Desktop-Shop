@@ -110,7 +110,7 @@ body {
 
 .mouse-content {
     display: flex;
-    margin-top: 50px;
+    margin-top: 90px;
     padding: 20px;
     text-align: center;
     width: auto;
@@ -118,16 +118,48 @@ body {
     border: 1px solid #0f1c3b;
 }
 
-.mouse-image {
-    padding: 10px;
+.mouse-image-container {
+    margin-top: 60px;
+    padding: 20px;
     width: min-content;
     height: min-content;
     border-radius: 10px;
     border: 1px solid #0f1c3b;
-    background-color: #ffa723fa;
+    background-color: white;
 }
 
-.mouse-content > .mouse-image > img {
-    width: 350px;
-    height: 350px;
+.mouse-image {
+    width: 300px;
+    height: 300px;
+    user-select: none;
+}
+
+.mouse-elements {
+    margin-top: 60px;
+    display: block;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.mouse-price {
+    display: flex;
+    gap: 10px;
+}
+
+.add-item-to-cart {
+    background-color: #0f1c3b;
+    height: min-content;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.add-item-to-cart > a {
+    text-decoration: none;
+    color: #fdd08b;
+    transition: 0.3s;
+}
+
+.add-item-to-cart > a:hover {
+    text-decoration: underline;
+    color: #ffa723fa;
 }
