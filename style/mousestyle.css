@@ -40,6 +40,26 @@ body {
     color: #ffa723fa;
 }
 
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+
+.flex-container space-between {
+    justify-content: space-between;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+} 
 
 /*navigacijas style start*/
 .lgse {
