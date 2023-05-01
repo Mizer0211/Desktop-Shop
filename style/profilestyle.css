@@ -96,6 +96,13 @@ body {
 
 .user-info {
     margin: auto;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.user-info-text {
+    display: block;
 }
 
 .change-password > a {
